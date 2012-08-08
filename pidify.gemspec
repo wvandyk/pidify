@@ -4,8 +4,8 @@ require File.expand_path('../lib/pidify/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Wynand van Dyk"]
   gem.email         = ["wvd@hetzner.co.za"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Replace pidify's old gemspec with a bundler generated one}
+  gem.summary       = %q{This is apparently needed in one of the projects I maintain}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
